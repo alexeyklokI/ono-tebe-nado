@@ -1,18 +1,13 @@
 /* место для вашего кода */
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    margin: 92px 24px 24px;
-
+    margin: 96px 24px 0px 24px;
     min-height: 105px;
 }
 
 .header__nav {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-
+    margin-left: 26px;
 }
 
 .nav {
@@ -29,16 +24,26 @@
     list-style: circle;
 }
 
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link-active {
+    text-decoration: none;
+}
+
 .header__logo {
     grid-column-start: 6;
     grid-column-end: 7;
+    margin-left: 36px;
     width: 148px;
     height: 105px;
 }
 
 .header__adress {
     grid-column-start: 9;
-    grid-column-end: 12;
+    grid-column-end: 13;
+    margin-left: 36px;
     align-content: center;
 
     max-width: 240px;
@@ -142,6 +147,8 @@
 
 .lots {
     margin-top: 180px;
+    margin-right: 24px;
+    margin-left: 24px;
 }
 
 .lots__heading {
@@ -156,6 +163,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    list-style: none;
 }
 
 .card {
@@ -184,6 +192,10 @@
 }
 
 .card__link {
+    text-decoration: none;
+}
+
+.card__title {
     position: relative;
     font-size: 22px;
     font-weight: 700;
@@ -206,4 +218,62 @@
     margin-left: 40px;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* About */
+
+.about {
+    margin-top: 150px;
+    margin-right: 24px;
+    margin-left: 24px;
+    height: 595px;
+}
+
+.about__column {
+    display: grid;
+    grid-template-columns: 334px 1fr;
+}
+
+.about__logo {
+    position: relative;
+    margin-top: 35px;
+    margin-left: 47px;
+    margin-right: 47px;
+    width: 240px;
+    height: 240px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.about__logo-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 148px;
+    height: 114px;
+}
+
+.about__column-right {
+    margin-left: 25px;
+}
+
+.about__title {
+    margin-top: 136px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+p:first-child {
+    margin-bottom: 24px;
 }
