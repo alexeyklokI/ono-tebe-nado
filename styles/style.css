@@ -1,6 +1,6 @@
 /* место для вашего кода */
 .header {
-    margin: 96px 24px 0px 24px;
+    margin: 104px 24px 0px 24px;
     min-height: 105px;
 }
 
@@ -63,7 +63,7 @@
     position: relative;
     color: #fff;
     margin-top: 100px;
-    padding: 165px 50px 50px;
+    padding: 162px 50px 50px;
     background: url(../images/cover.jpg) center no-repeat;
     background-size: cover;
 }
@@ -159,7 +159,7 @@
 }
 
 .lots__card-list {
-    margin-top: 30px;
+    margin-top: 27px;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -276,4 +276,46 @@
 
 p:first-child {
     margin-bottom: 24px;
+}
+
+/* FOOTER */
+
+.footer {
+    margin: 180px 50px 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__adress {
+    list-style: none;
+    max-width: 240px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #000;
+}
+
+.footer__menu {
+    text-align: center;
+}
+
+.footer__menu-list {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__social-list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+.footer__social-list-item {
+    max-width: 48px;
+    max-height: 48px;
 }
