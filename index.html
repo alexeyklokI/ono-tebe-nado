@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
@@ -24,7 +24,7 @@
         <a href="#!">
           <img class="header__logo" src="./images/logo-black.svg" alt="Logo" />
         </a>
-        <div class="header__adress">
+        <div class="adress header__adress">
           <ul class="header-nav__list">
             <li><a href="tel:+99995555555"> +9 999 555 5555</a></li>
             <li>
@@ -43,8 +43,10 @@
             <span class="align-text align-text_left"
               >О<span class="letter-spacing-extended">н</span>о</span
             >
-            <span class="align-text align-text_center"
-              >те<span class="letter-spacing-extended">б</span>е</span
+            <span class="align-text align-text_center">
+              <span>т</span><span>е</span
+              ><span class="letter-spacing-extended">б</span
+              ><span>е</span></span
             >
             <span class="align-text align-text_right"
               ><span class="letter-spacing-extended">н</span>ад<span
@@ -55,7 +57,7 @@
           </h1>
           <div class="cover__description">
             <p class="cover__description-text">
-              Аукцион вещей, вкоторые никто не верил
+              Аукцион вещей, в которые никто не верил
             </p>
             <button class="bet-button" type="button">Сделать ставку</button>
           </div>
@@ -68,9 +70,9 @@
             <a class="card__link" href="#!">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h2>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -83,9 +85,9 @@
             <a class="card__link" href="#!">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h2>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -101,9 +103,9 @@
             <a class="card__link" href="#!">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h2>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -152,13 +154,11 @@
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer__adress">
-        <li><a href="tel:+99995555555"> +9 999 555 5555</a></li>
-        <li>
-          <a href="mailto:info@sobaka.ge"> info@sobaka.ge</a>
-        </li>
-        <li>наб. Принсенграхт 263- 265, Амстердам</li>
-      </ul>
+      <div class="adress">
+        <a href="tel:+99995555555"> +9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge"> info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+      </div>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li>

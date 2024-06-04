@@ -1,7 +1,6 @@
 /* место для вашего кода */
 .header {
-    margin: 104px 24px 0px 24px;
-    min-height: 105px;
+    margin: 94px 24px 0px 24px;
 }
 
 .header__nav {
@@ -35,9 +34,17 @@
 .header__logo {
     grid-column-start: 6;
     grid-column-end: 7;
-    margin-left: 36px;
+    margin-left: 45px;
     width: 148px;
     height: 105px;
+}
+
+.adress {
+    max-width: 240px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #000;
 }
 
 .header__adress {
@@ -45,12 +52,6 @@
     grid-column-end: 13;
     margin-left: 36px;
     align-content: center;
-
-    max-width: 240px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 135%;
-    color: #000;
 }
 
 .header-nav__list {
@@ -62,7 +63,7 @@
 .cover {
     position: relative;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 93px;
     padding: 162px 50px 50px;
     background: url(../images/cover.jpg) center no-repeat;
     background-size: cover;
@@ -83,8 +84,8 @@
 .cover__title {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
-    font-family: Raleway;
+    row-gap: 22px;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: calc(100 / 100 * 100%);
@@ -98,6 +99,7 @@
 
 .align-text_center {
     text-align: center;
+    letter-spacing: 0.33em;
 }
 
 .align-text_right {
@@ -113,7 +115,7 @@
 }
 
 .cover__description {
-    margin-top: 135px;
+    margin-top: 133px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,7 +123,7 @@
 
 .cover__description-text {
     margin-left: 28px;
-    font-family: Raleway;
+    font-family: sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: calc(28 / 22 * 100%);
@@ -132,7 +134,7 @@
 .bet-button {
     padding: 12px 32px;
     border: 1px solid #fff;
-    font-family: Raleway;
+    font-family: sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: calc(26 / 22 * 100%);
@@ -172,7 +174,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 50px 40px;
-    height: 563px;
+    min-height: 563px;
     width: 334px;
 }
 
@@ -223,10 +225,9 @@
 /* About */
 
 .about {
-    margin-top: 150px;
+    margin-top: 147px;
     margin-right: 24px;
     margin-left: 24px;
-    height: 595px;
 }
 
 .about__column {
@@ -236,6 +237,9 @@
 
 .about__logo {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 35px;
     margin-left: 47px;
     margin-right: 47px;
@@ -246,12 +250,6 @@
 }
 
 .about__logo-image {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
     width: 148px;
     height: 114px;
 }
@@ -261,7 +259,7 @@
 }
 
 .about__title {
-    margin-top: 136px;
+    margin-top: 132px;
     margin-bottom: 100px;
     font-weight: 700;
     font-size: 40px;
@@ -269,13 +267,12 @@
 }
 
 .about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
-}
-
-p:first-child {
-    margin-bottom: 24px;
 }
 
 /* FOOTER */
