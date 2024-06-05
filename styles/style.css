@@ -5,21 +5,19 @@
 
 .header__nav {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: 1fr min-content 1fr;
     margin-left: 26px;
+    align-items: center;
 }
 
 .nav {
-    grid-column-start: 1;
-    grid-column-end: 6;
-    align-content: center;
     font-size: 18px;
     letter-spacing: 0.01em;
 }
 
 .nav__list {
     display: flex;
-    column-gap: 25px;
+    column-gap: 31px;
     list-style: circle;
 }
 
@@ -32,9 +30,7 @@
 }
 
 .header__logo {
-    grid-column-start: 6;
-    grid-column-end: 7;
-    margin-left: 45px;
+    margin-right: 20px;
     width: 148px;
     height: 105px;
 }
@@ -49,9 +45,7 @@
 }
 
 .header__adress {
-    grid-column-start: 9;
-    grid-column-end: 13;
-    margin-left: 36px;
+    margin-left: 164px;
     align-content: center;
 }
 
@@ -123,7 +117,7 @@
 
 .cover__description-text {
     margin-left: 28px;
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: calc(28 / 22 * 100%);
@@ -134,7 +128,7 @@
 .bet-button {
     padding: 12px 32px;
     border: 1px solid #fff;
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: calc(26 / 22 * 100%);
