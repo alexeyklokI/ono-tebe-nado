@@ -41,6 +41,7 @@
 
 .adress {
     max-width: 240px;
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 135%;
@@ -215,6 +216,7 @@
 }
 
 .lots__look-more-link {
+    display: inline-block;
     margin-top: 30px;
     margin-left: 40px;
     font-size: 20px;
